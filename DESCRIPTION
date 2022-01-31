@@ -1,0 +1,16 @@
+Package: PseuAbs
+Type: Package
+Title: Flexibly sample pseudoabsences with diversrse strategies
+Version: 0.1.0
+Authors@R: c(
+	person("Philipp", "Brun",role=c("aut","cre"),email="philipp.brun@wsl.ch"),
+	person("Patrice", "Descombes",role="aut"),
+	person("Niklaus", "Zimmermann",role="aut")
+	)
+Depends: R (>= 3.1.0), raster, dismo, spatstat
+Maintainer: Philipp Brun <philipp.brun@wsl.ch>
+Description: This package allows conveniently sampling pseudoabsences according to the methods introduced by Descombes et al.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
