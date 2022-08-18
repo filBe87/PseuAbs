@@ -330,7 +330,7 @@ wsl.samplePseuAbs<-function(n=10000,
       tmfl=list.files(template_dir,pattern=ptrn,full.names=TRUE)
 
       if(length(tmfl)>0){
-        rst=raster(tmfl)
+        rst=raster(tmfl[1])
       } else {
         tmfl=paste0(template_dir,"/",ptrn)
         if(geores_fact==1){
